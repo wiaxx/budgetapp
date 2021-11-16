@@ -7,16 +7,12 @@ nav {
         flex: 1;
         background-color: $background-color;
         border-radius: 0px;
+        color: $textColorLight;
     }
 
     .incomeBtn:hover, .costsBtn:hover {
         background-color: rgb(0, 100, 100);
     }
-}
-
-a {
-    text-decoration: none;
-    color: $textColorLight;
 }
 
 

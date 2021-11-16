@@ -100,13 +100,10 @@ nav {
   nav .incomeBtn, nav .costsBtn {
     flex: 1;
     background-color: cadetblue;
-    border-radius: 0px; }
+    border-radius: 0px;
+    color: cornsilk; }
   nav .incomeBtn:hover, nav .costsBtn:hover {
     background-color: #006464; }
-
-a {
-  text-decoration: none;
-  color: cornsilk; }
 
 #myInput {
   display: flex;
