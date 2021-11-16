@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="costs.js" defer></script>
+    <title>Costs</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <a href="./index.html">
+            <header class="imgHeaderCost">
+            </header>
+        </a>
+        <main class="costsMain">
+            <h1>List of costs</h1>
+
+            <div class="div-costs">
+                <div class="flexcontainer">
+                    <button id="showCosts">Get transactions</button>
+                    <input type="date" id="dateFilter">
+                    <button id="btnFilter">Filter by date</button>
+                </div>
+                <table id="outputCosts">
+                    <tr class="headerRow">
+                        <th class="rubrik">Date</th>
+                        <th class="rubrik">Description</th>
+                        <th class="rubrik">Value</th>
+                    </tr>
+                </table>
+            </div>
+
+        </main>
+    </div>
+</body>
+
+</html>

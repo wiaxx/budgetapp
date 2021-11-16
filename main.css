@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+.wrapper {
+  width: 40vw;
+  height: 95vh;
+  margin: 10px auto 0 auto;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+main {
+  width: 100%;
+  height: 70%;
+  padding: 10px;
+  background-color: cadetblue;
+  border-radius: 0 0 20px 20px; }
+
+header {
+  width: 100%;
+  height: 25%;
+  background-color: cornsilk;
+  border-radius: 20px 20px 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.balance {
+  text-align: center;
+  color: cadetblue;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.815); }
+
+h1 {
+  text-align: center;
+  color: blanchedalmond; }
+
+input, button, select {
+  font-size: 1.3rem;
+  border-radius: 10px;
+  margin: 2px;
+  border: none; }
+
+.inputList, #outputIncome, #outputCosts {
+  padding: 10px;
+  font-size: 1.3rem;
+  color: honeydew;
+  width: 100%;
+  border-collapse: collapse; }
+
+.div-income, .div-costs {
+  display: flex;
+  flex-direction: column; }
+
+.headerRow {
+  color: blanchedalmond; }
+
+th, td {
+  border: 1px solid salmon;
+  text-align: center;
+  width: 100vw; }
+
+.flexcontainer {
+  display: flex;
+  margin-bottom: 5px; }
+
+#getIncome, #dateFilter, #btnFilter, #showCosts {
+  flex: 1; }
+
+.imgHeader {
+  background-image: url("https://images.unsplash.com/photo-1580508174046-170816f65662?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: cover;
+  opacity: 100%;
+  background-position: center; }
+
+.incomeMain {
+  height: 75%; }
+
+.imgHeaderCost {
+  background-image: url("https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  opacity: 100%;
+  background-position: bottom; }
+
+.costsMain {
+  height: 75%; }
+
+nav {
+  background-color: cornsilk;
+  display: flex;
+  height: 5%; }
+  nav .incomeBtn, nav .costsBtn {
+    flex: 1;
+    background-color: cadetblue;
+    border-radius: 0px; }
+  nav .incomeBtn:hover, nav .costsBtn:hover {
+    background-color: #006464; }
+
+a {
+  text-decoration: none;
+  color: cornsilk; }
+
+#myInput {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 1.5rem; }
+
+.green {
+  background-image: linear-gradient(to left, rgba(0, 128, 0, 0.644), cadetblue); }
+
+.red {
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 0.678), cadetblue); }
+
+.showInput {
+  max-height: 50%;
+  overflow: scroll;
+  padding: 10px; }
+
+/* styling for smaller screens */
+@media (max-width: 850px) {
+  .wrapper {
+    width: 80vw;
+    height: 100vh; } }
+
+@media (max-width: 420px) {
+  .wrapper {
+    width: 100vw;
+    height: 100vh; }
+  .showInput {
+    flex-direction: column; }
+  .flexcontainer {
+    flex-direction: column; } }

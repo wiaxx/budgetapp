@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./income.js" defer></script>
+    <title>Income</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <a href="./index.html">
+            <header class="imgHeader">
+            </header>
+        </a>
+        <main class="incomeMain">
+            <h1>List of income</h1>
+
+            <div class="div-income">
+                <div class="flexcontainer">
+                    <button id="getIncome">Get transactions</button>
+                    <input type="date" id="dateFilter">
+                    <button id="btnFilter">Filter by date</button>
+                </div>
+                <table id="outputIncome">
+                    <tr class="headerRow">
+                        <th class="rubrik">Date</th>
+                        <th class="rubrik">Description</th>
+                        <th class="rubrik">Value</th>
+                    </tr>
+                </table>
+            </div>
+
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" defer></script>
+    <title>Budget</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <!-- fetcha background image from unsplash -->
+            <div class="balance">Balance: 0:-</div>
+        </header>
+        <!-- navbar for income- and costs-lists -->
+        <nav>
+            <button class="incomeBtn" onclick="window.location.href='./income.html'"><a href="./income.html" id="incomeI">Income</a></button>
+            <button class="costsBtn" onclick="window.location.href='./costs.html'"><a href="./costs.html" id="incomeC">Costs</a></button>
+        </nav>
+
+        <main>
+            <h1>Keep track of your balance</h1>
+
+            <form id="myInput">
+                <input type="text" id="description" placeholder="Description" required>
+                <input type="text" id="value" placeholder="Value" required>
+
+                <!-- drop down with list value, plus or minus -->
+                <select name="counter" id="counter">
+                    <option value="plus">+</option>
+                    <option value="minus">-</option>
+                </select>
+
+                <input type="date" id="date" required>
+                <button type="button" id="btn">Add</button>
+            </form>
+
+            <div class="showInput">
+                <table class="inputList">
+                    <tr class="headerRow">
+                        <th class="rubrik">Date</th>
+                        <th class="rubrik">Description</th>
+                        <th class="rubrik">Value</th>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

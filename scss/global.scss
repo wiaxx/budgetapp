@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    width: 40vw;
+    height: 95vh;
+    margin: 10px auto 0 auto;
+    border-radius: $allRoundCorners;
+    // border: $border;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+    background-color: $background-color;
+    border-radius: $bottomRoundedCorners;
+}
+
+header {
+    width: 100%;
+    height: 25%;
+    background-color: $header-bg;
+    border-radius: $topRoundedCorners;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: $headerOpacity;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balance {
+    text-align: center;
+    color: $textColorTwo;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: $balanceBackground;
+}
+
+h1 {
+    text-align: center;
+    color: $textColorOne;
+}
+
+input, button, select {
+    font-size: 1.3rem;
+    border-radius: $smallRoundCorners;
+    margin: 2px;
+    border: none;
+}
+
+.inputList, #outputIncome, #outputCosts {
+    padding: 10px;
+    font-size: 1.3rem;
+    color: $textColorHoney;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.div-income, .div-costs {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerRow {
+    color: $textColorOne;
+}
+
+th, td {
+    border: $border;
+    text-align: center;
+    width: 100vw;
+}
+
+.flexcontainer {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#getIncome, #dateFilter, #btnFilter, #showCosts {
+    flex: 1;
+}

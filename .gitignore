@@ -1,0 +1,5 @@
+node_modules/
+test.js/
+package-log.json/
+.vscode/
+oldplustest/

@@ -1,0 +1,20 @@
+#myInput {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.green {
+    background-image: linear-gradient(to left, rgba(0, 128, 0, 0.644), cadetblue);
+}
+
+.red {
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.678), cadetblue);
+}
+
+.showInput {
+    max-height: 50%;
+    overflow: scroll;
+    padding: 10px;
+}
